@@ -8,6 +8,7 @@ namespace technical
 {
     class MainClass
     {
+        //The tables available
         enum Tables
         {
             A,
@@ -15,6 +16,7 @@ namespace technical
             C
         }
 
+        //Holds the start and End time
         class Interval
         {
             public int Start { get; set; }
